@@ -1,0 +1,602 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "roadmap": "Roadmap",
+    "topics": "Topics",
+    "projects": "Projects",
+    "achievements": "Achievements",
+    "studyPlan": "Study Plan",
+    "codeRunner": "Code Runner",
+    "settings": "Settings",
+    "search": "Search topics..."
+  },
+  "dashboard": {
+    "greeting": "Welcome back, Learner!",
+    "subtitle": "Continue your Java mastery journey",
+    "overallProgress": "Overall Progress",
+    "currentStreak": "Day Streak",
+    "totalXP": "Total XP",
+    "completed": "Completed",
+    "topics": "Topics",
+    "continue": "Continue Learning",
+    "recentActivity": "Recent Activity",
+    "quickStart": "Quick Start",
+    "yourGoal": "Your Goal",
+    "changeGoal": "Change Goal",
+    "noGoalSelected": "No goal selected",
+    "selectGoal": "Select a learning goal",
+    "topicsCompleted": "topics completed",
+    "phasesCompleted": "phases completed",
+    "nextUp": "Next Up",
+    "keepGoing": "Keep going!",
+    "phaseProgress": "Phase Progress",
+    "viewAll": "View All"
+  },
+  "topics": {
+    "title": "All Topics",
+    "subtitle": "Browse all {{count}} topics across 21 phases",
+    "filter": "Filter",
+    "filterAll": "All",
+    "filterCompleted": "Completed",
+    "filterInProgress": "In Progress",
+    "filterNotStarted": "Not Started",
+    "sortBy": "Sort by",
+    "sortPhase": "Phase",
+    "sortDifficulty": "Difficulty",
+    "sortXP": "XP",
+    "markComplete": "Mark Complete",
+    "markIncomplete": "Mark Incomplete",
+    "completed": "Completed",
+    "subtopics": "Subtopics",
+    "exercises": "Exercises",
+    "estimatedTime": "Est. Time",
+    "hours": "hrs",
+    "xpReward": "XP Reward",
+    "prerequisites": "Prerequisites",
+    "noTopics": "No topics found",
+    "searchTopics": "Search topics..."
+  },
+  "topicDetail": {
+    "overview": "Overview",
+    "subtopics": "Subtopics",
+    "codeExample": "Code Example",
+    "exercises": "Exercises",
+    "notes": "My Notes",
+    "saveNote": "Save Note",
+    "notePlaceholder": "Write your personal notes for this topic...",
+    "markComplete": "Mark as Complete",
+    "markIncomplete": "Mark Incomplete",
+    "completedAt": "Completed",
+    "copyCode": "Copy",
+    "copied": "Copied!",
+    "runCode": "Run in Code Runner",
+    "difficulty": "Difficulty",
+    "estimated": "Estimated",
+    "xpReward": "XP Reward",
+    "phase": "Phase",
+    "nextTopic": "Next Topic",
+    "previousTopic": "Previous Topic",
+    "exerciseCompleted": "Exercise completed! +{{xp}} XP"
+  },
+  "roadmap": {
+    "title": "Java Learning Roadmap",
+    "subtitle": "Your complete path from beginner to expert — 21 phases, 71+ topics",
+    "phase": "Phase",
+    "topics": "topics",
+    "weeks": "weeks",
+    "startPhase": "Start Phase",
+    "continuePhase": "Continue",
+    "completed": "Completed",
+    "inProgress": "In Progress",
+    "locked": "Coming Up",
+    "phaseProjects": "Suggested Projects"
+  },
+  "projects": {
+    "title": "Project Gallery",
+    "subtitle": "Build real projects to solidify your knowledge",
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced",
+    "expert": "Expert",
+    "notStarted": "Not Started",
+    "inProgress": "In Progress",
+    "completed": "Completed",
+    "markStarted": "Start Project",
+    "markDone": "Mark Done",
+    "description": "A hands-on project for your current skill level"
+  },
+  "achievements": {
+    "title": "Achievements",
+    "subtitle": "Unlock badges as you progress through your Java journey",
+    "unlocked": "Unlocked",
+    "locked": "Locked",
+    "category": {
+      "milestone": "Milestone",
+      "phase": "Phase",
+      "streak": "Streak",
+      "xp": "XP",
+      "practice": "Practice",
+      "special": "Special"
+    },
+    "rarity": {
+      "common": "Common",
+      "uncommon": "Uncommon",
+      "rare": "Rare",
+      "epic": "Epic",
+      "legendary": "Legendary"
+    },
+    "xpReward": "XP Reward",
+    "progress": "{{unlocked}} of {{total}} unlocked"
+  },
+  "studyPlan": {
+    "title": "Study Plan",
+    "subtitle": "Follow this sequence for the most effective learning",
+    "stage": "Stage",
+    "focus": "Focus Area",
+    "project": "Suggested Project",
+    "goals": "Learning Goals",
+    "selectGoal": "Select your goal to get a personalized plan",
+    "university": "University & Exams",
+    "backend": "Java Backend Job",
+    "competitive": "Competitive Programming",
+    "estimatedTime": "Estimated Time",
+    "phases": "phases",
+    "topics": "topics"
+  },
+  "codeRunner": {
+    "title": "Java Code Runner",
+    "subtitle": "Write and run Java code directly in your browser",
+    "run": "Run Code",
+    "running": "Running...",
+    "clear": "Clear",
+    "reset": "Reset",
+    "output": "Output",
+    "error": "Error",
+    "noOutput": "Run your code to see output here",
+    "copyCode": "Copy Code",
+    "language": "Java",
+    "fontSize": "Font Size",
+    "theme": "Theme",
+    "examples": "Load Example",
+    "timeout": "Execution timed out (5s limit)",
+    "disclaimer": "Code runs via JDoodle API. Internet required.",
+    "clientId": "Enter JDoodle Client ID (optional)",
+    "clientSecret": "Enter JDoodle Client Secret (optional)",
+    "usingPublic": "Using shared API (limited runs/day)"
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "Customize your learning experience",
+    "language": "Language",
+    "theme": "Theme",
+    "darkMode": "Dark Mode",
+    "lightMode": "Light Mode",
+    "fontSize": "Font Size",
+    "small": "Small",
+    "medium": "Medium",
+    "large": "Large",
+    "codeTheme": "Code Theme",
+    "notifications": "Notifications",
+    "notificationsDesc": "Get reminded about your daily streak",
+    "resetProgress": "Reset Progress",
+    "resetConfirm": "Are you sure? This will erase all your progress!",
+    "resetDone": "Progress has been reset",
+    "exportProgress": "Export Progress",
+    "exportDesc": "Download your progress as a JSON file",
+    "about": "About JavaPath",
+    "version": "Version 1.0.0",
+    "madeWith": "Made with ☕ for Java learners worldwide"
+  },
+  "search": {
+    "placeholder": "Search topics, phases, exercises...",
+    "noResults": "No results found for \"{{query}}\"",
+    "results": "{{count}} results",
+    "recentSearches": "Recent Searches",
+    "clear": "Clear"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "retry": "Try Again",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "complete": "Complete",
+    "incomplete": "Incomplete",
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced",
+    "expert": "Expert",
+    "phase": "Phase",
+    "topic": "Topic",
+    "exercise": "Exercise",
+    "note": "Note",
+    "xp": "XP",
+    "streak": "Streak",
+    "days": "days",
+    "hours": "hours",
+    "minutes": "minutes",
+    "level": "Level",
+    "progress": "Progress",
+    "of": "of",
+    "yes": "Yes",
+    "no": "No"
+  },
+  "phases": {
+    "1": {
+      "title": "Programming Fundamentals",
+      "description": "Learn the basics of Java — how to write and run your first programs"
+    },
+    "2": {
+      "title": "Arrays & Strings",
+      "description": "Master arrays for lists and Strings for text"
+    },
+    "3": {
+      "title": "Object-Oriented Programming",
+      "description": "Model the real world with classes, objects, and OOP principles"
+    },
+    "4": {
+      "title": "Core Java",
+      "description": "Deep dive into Collections, Generics, and Exception Handling"
+    },
+    "5": {
+      "title": "Functional Java",
+      "description": "Modern Java with lambdas, streams, and functional patterns"
+    },
+    "6": {
+      "title": "File Handling & I/O",
+      "description": "Read and write files, work with dates and the filesystem"
+    },
+    "7": {
+      "title": "Multithreading & Concurrency",
+      "description": "Run multiple tasks simultaneously for fast, responsive apps"
+    },
+    "8": {
+      "title": "Database Programming",
+      "description": "Connect Java to databases with SQL and JDBC"
+    },
+    "9": {
+      "title": "Data Structures & Algorithms",
+      "description": "Efficient data structures and algorithm patterns for problem solving"
+    },
+    "10": {
+      "title": "Testing, Debugging & Code Quality",
+      "description": "Write reliable, maintainable code the professional way"
+    },
+    "11": {
+      "title": "Build Tools & Version Control",
+      "description": "Git for version control, Maven and Gradle for builds"
+    },
+    "12": {
+      "title": "Design Principles & Patterns",
+      "description": "SOLID principles and classic design patterns"
+    },
+    "13": {
+      "title": "Networking & Web Fundamentals",
+      "description": "How computers communicate and how the web works"
+    },
+    "14": {
+      "title": "Servlet & JSP Technology",
+      "description": "Foundation of Java web development"
+    },
+    "15": {
+      "title": "Spring Framework",
+      "description": "The world's most popular Java framework"
+    },
+    "16": {
+      "title": "ORM & Database Frameworks",
+      "description": "JPA and Hibernate for database abstraction"
+    },
+    "17": {
+      "title": "Security",
+      "description": "Authentication, authorization, and protecting your app"
+    },
+    "18": {
+      "title": "Advanced Backend Development",
+      "description": "Caching, messaging, scheduling, and reliability"
+    },
+    "19": {
+      "title": "Microservices",
+      "description": "Scale with small, independent services"
+    },
+    "20": {
+      "title": "Deployment & DevOps",
+      "description": "Docker, CI/CD, and cloud deployment"
+    },
+    "21": {
+      "title": "JVM Internals & Performance",
+      "description": "Master the JVM engine for blazing-fast applications"
+    }
+  },
+  "topics": {
+    "1-intro": {
+      "title": "Java Introduction & Environment",
+      "brief": "Java is one of the world's most popular programming languages. Think of it like learning the rules of a new language — but instead of speaking, you write instructions that a computer follows. In this topic, you'll set up your computer, install the tools needed to write Java, and run your very first program. It's like setting up a kitchen before you start cooking!"
+    },
+    "2-variables": {
+      "title": "Variables & Data Types",
+      "brief": "A variable is like a labeled box where you store information. For example, a box labeled 'age' might hold the number 25. Java has different types of boxes for different kinds of data — numbers, decimal numbers, text, and true/false values. You'll learn how to create these boxes, put things in them, and use them in your programs."
+    },
+    "3-operators": {
+      "title": "Operators",
+      "brief": "Operators are the math and logic tools of programming. The + adds numbers, == checks if two things are equal, and && means 'and both conditions must be true'. Think of them as the symbols on a calculator, but much more powerful — they let your program make decisions and perform calculations."
+    },
+    "4-io": {
+      "title": "Input & Output",
+      "brief": "Every useful program needs to talk to the user — show messages on screen and read what the user types. This topic teaches you how to display text (output) and read keyboard input. It's like a conversation: your program asks a question, and the user types an answer."
+    },
+    "5-conditionals": {
+      "title": "Conditional Statements",
+      "brief": "Conditionals let your program make decisions. 'If it's raining, take an umbrella; otherwise, wear sunglasses.' In Java, this is the if-else statement. You can also handle many options at once with a switch statement — like a menu where each option leads somewhere different."
+    },
+    "6-loops": {
+      "title": "Loops",
+      "brief": "Loops let you repeat an action many times without writing the same code over and over. Instead of writing 'print line 1, print line 2, print line 3...' 100 times, you write 'repeat this 100 times'. It's like a washing machine cycle — it runs the same steps again and again until done."
+    },
+    "7-methods": {
+      "title": "Methods",
+      "brief": "A method is a named block of code that does one specific thing. Instead of writing the same code multiple times, you write it once as a method and call it by name whenever needed. Think of it like saving a recipe — write it once, use it whenever you want to cook that dish."
+    },
+    "8-arrays": {
+      "title": "Arrays",
+      "brief": "An array is like a numbered shelf — each position holds one item. Instead of 10 separate variables for 10 student scores, you have one array of 10 scores. You can loop through them, find the highest, sort them, and more. It's how computers efficiently store lists of things."
+    },
+    "9-strings": {
+      "title": "Strings",
+      "brief": "Strings are sequences of characters — basically text. Your name, an email address, a message — all of these are Strings in Java. You'll learn how to create them, compare them (is 'Apple' the same as 'apple'?), search inside them, split them apart, and build them efficiently."
+    },
+    "10-classes": {
+      "title": "Classes & Objects",
+      "brief": "A class is a blueprint, and an object is something made from that blueprint. A 'Car' class is the blueprint; your specific red Toyota is an object. Classes let you model real-world things in code — giving them properties (color, speed) and behaviors (drive, brake). This is the foundation of Object-Oriented Programming."
+    },
+    "11-constructors": {
+      "title": "Constructors",
+      "brief": "A constructor is a special method that runs when you create a new object. It's like a setup wizard — when you create a new BankAccount object, the constructor sets the initial balance and owner. You can have multiple constructors with different parameters, like ordering a pizza with different toppings."
+    },
+    "12-encapsulation": {
+      "title": "Encapsulation",
+      "brief": "Encapsulation means hiding the internal details of an object and only exposing what's necessary. It's like an ATM machine — you don't need to know how it calculates your balance inside; you just press the button and get your money. Private fields and public getters/setters implement this concept."
+    },
+    "13-inheritance": {
+      "title": "Inheritance",
+      "brief": "Inheritance lets a new class automatically get all the features of an existing class and then add more. A 'GoldenRetriever' class can inherit everything from 'Dog' (barks, has legs) and add its own behavior (fetches balls). This saves you from writing the same code twice — like a child inheriting traits from a parent."
+    },
+    "14-polymorphism": {
+      "title": "Polymorphism",
+      "brief": "Polymorphism means one thing can take many forms. A 'makeSound()' method on an Animal class means different things for a Dog (barks) and a Cat (meows). The same method name works differently depending on what type of object it is. This makes code flexible and extensible."
+    },
+    "15-abstraction": {
+      "title": "Abstraction",
+      "brief": "Abstraction hides complex details and shows only the essential features. When you drive a car, you don't need to know how the engine works — just the steering wheel and pedals. In Java, abstract classes and interfaces define what an object should do without saying exactly how."
+    },
+    "16-access-modifiers": {
+      "title": "Access Modifiers",
+      "brief": "Access modifiers control who can see and use parts of your code. Private means only the class itself can use it (like a personal diary). Public means anyone can use it (like a public notice board). This is how you protect sensitive data and control what others can access."
+    },
+    "17-oop-concepts": {
+      "title": "OOP Relationships",
+      "brief": "Objects don't exist alone — they relate to each other. A Library has Books (has-a relationship). A GoldenRetriever is a Dog (is-a relationship). Understanding these relationships — association, aggregation, composition — helps you design clean, realistic systems."
+    },
+    "18-nested-classes": {
+      "title": "Nested Classes",
+      "brief": "Sometimes a class only makes sense inside another class — like a 'Seat' class inside a 'Cinema' class. Java lets you define classes within classes. Anonymous classes let you create a one-time-use implementation on the spot, without giving it a name."
+    },
+    "19-special-classes": {
+      "title": "Special Class Types",
+      "brief": "Java has special class types for specific needs. Enums are fixed sets of constants (like days of the week). Records are compact, immutable data carriers (perfect for DTOs). Sealed classes restrict which classes can extend them. These modern features make code cleaner and safer."
+    },
+    "20-object-class": {
+      "title": "The Object Class",
+      "brief": "Every class in Java secretly extends the Object class — it's the grandfather of all classes. It provides essential methods like toString() (convert to text), equals() (check equality), and hashCode() (used by hash-based collections). Understanding these is crucial for correct behavior in collections."
+    },
+    "21-packages": {
+      "title": "Packages & Modules",
+      "brief": "Packages are like folders that organize your Java classes. Instead of having 500 files in one place, you group related classes together — com.myapp.model for data, com.myapp.service for logic. This keeps large projects manageable and prevents naming conflicts."
+    },
+    "22-exceptions": {
+      "title": "Exception Handling",
+      "brief": "Exceptions are unexpected events that disrupt normal program flow — like trying to divide by zero, or opening a file that doesn't exist. Exception handling lets you gracefully deal with these situations instead of crashing. It's like having a plan B — if something goes wrong, here's what to do instead."
+    },
+    "23-collections": {
+      "title": "Collections Framework",
+      "brief": "The Collections Framework provides ready-made data structures for storing groups of objects. ArrayList is like a growing list, HashMap is like a dictionary (word → definition), HashSet is like a bag that rejects duplicates. These are the tools you'll use in every real Java program."
+    },
+    "24-generics": {
+      "title": "Generics",
+      "brief": "Generics let you write code that works with any type safely. Instead of a separate Stack for integers and another for strings, you write one Stack<T> that works with any type you specify. This catches type errors at compile time — before your program even runs."
+    },
+    "25-comparable": {
+      "title": "Comparable & Comparator",
+      "brief": "Sorting requires knowing what makes one thing 'greater than' another. Should products be sorted by price or name? Comparable defines a class's natural order. Comparator lets you define custom sorting rules externally. You can even chain comparators — sort by name first, then by age."
+    },
+    "26-lambdas": {
+      "title": "Lambda Expressions",
+      "brief": "Lambdas are short, anonymous functions you can pass around like values. Instead of creating a whole class just to sort a list, you write: names.sort((a, b) -> a.length() - b.length()). They make code dramatically shorter and more readable — a Java game-changer introduced in Java 8."
+    },
+    "27-streams": {
+      "title": "Stream API",
+      "brief": "Streams let you process collections of data in a pipeline style — like an assembly line. You filter, transform, sort, and collect results in a single, readable expression. Instead of 20 lines of loops, you write 3 lines that clearly say what you want: filter employees who earn over 50k, map to their names, collect to a list."
+    },
+    "28-optional": {
+      "title": "Optional",
+      "brief": "Optional is a container that may or may not hold a value. It's Java's solution to the dreaded NullPointerException — instead of returning null when something isn't found, return an Optional. Callers are forced to handle the 'not found' case explicitly, making code much safer."
+    },
+    "29-traditional-io": {
+      "title": "Traditional I/O",
+      "brief": "Traditional I/O lets your Java program read from and write to files, networks, and other data sources. Think of it as pipes — data flows through InputStream (incoming) and OutputStream (outgoing). Serialization lets you convert a Java object into bytes and save it to disk, then reload it later."
+    },
+    "30-nio": {
+      "title": "NIO & NIO.2",
+      "brief": "NIO (New I/O) is a modernized file system API. The Path and Files classes make it easy to read files, walk directory trees, watch for file changes, and perform high-performance I/O with channels. It's the recommended way to work with files in modern Java."
+    },
+    "31-datetime": {
+      "title": "Date & Time API",
+      "brief": "Java's modern date/time API (introduced in Java 8) fixes the problems of the old Date class. LocalDate is just a date (2026-07-17), LocalTime is just a time, and LocalDateTime combines both. ZonedDateTime handles different time zones. Everything is immutable and much easier to use."
+    },
+    "32-threads": {
+      "title": "Thread Fundamentals",
+      "brief": "A thread is like a separate worker that runs code independently. By creating multiple threads, your program can do multiple things at once — download files while updating the UI, for example. Threads share memory, which makes them fast but requires careful coordination."
+    },
+    "33-synchronization": {
+      "title": "Thread Synchronization",
+      "brief": "When multiple threads access the same data, chaos can happen — called a race condition. Synchronization ensures only one thread touches critical code at a time. It's like a single-stall bathroom with a lock: one person at a time, others wait. The volatile keyword ensures changes are visible to all threads."
+    },
+    "34-concurrency-utils": {
+      "title": "Concurrency Utilities",
+      "brief": "Modern Java provides high-level tools for concurrency. ExecutorService manages a pool of worker threads. CompletableFuture lets you chain asynchronous operations. AtomicInteger provides thread-safe counter operations. Virtual threads (Java 21) let you create millions of lightweight threads effortlessly."
+    },
+    "35-sql": {
+      "title": "SQL Fundamentals",
+      "brief": "SQL (Structured Query Language) is how you talk to databases. SELECT retrieves data, INSERT adds new rows, UPDATE changes existing data, and DELETE removes it. JOIN combines data from multiple tables. Think of it as a very powerful search and manipulation tool for organized data stored in tables."
+    },
+    "36-jdbc": {
+      "title": "JDBC",
+      "brief": "JDBC (Java Database Connectivity) is the bridge between your Java code and a database. You write Java, it talks to MySQL, PostgreSQL, or any other database. PreparedStatement prevents SQL injection attacks. The DAO (Data Access Object) pattern organizes your database code cleanly."
+    },
+    "37-complexity": {
+      "title": "Complexity Analysis",
+      "brief": "Big-O notation describes how an algorithm's speed changes as the input size grows. O(1) means constant time (always fast). O(n) means linear (proportional to input). O(n²) means quadratic (gets very slow with large inputs). Understanding this helps you choose the right algorithm for the job."
+    },
+    "38-data-structures": {
+      "title": "Data Structures",
+      "brief": "Data structures are organized ways to store data. A LinkedList is a chain of nodes, each pointing to the next. A Binary Tree arranges data hierarchically. A Hash Table gives near-instant lookup by key. Choosing the right data structure is one of the most important decisions in programming."
+    },
+    "39-algorithms": {
+      "title": "Algorithms",
+      "brief": "An algorithm is a step-by-step solution to a problem. Binary search finds an item in a sorted list by always checking the middle — like guessing a number between 1 and 100. Dynamic programming solves complex problems by remembering subproblem solutions. Mastering algorithms is key to cracking technical interviews."
+    },
+    "40-debugging": {
+      "title": "Debugging",
+      "brief": "Debugging is finding and fixing bugs in your code. A debugger lets you pause execution at any line, inspect variable values, and step through code one line at a time. Logging records events as your program runs — invaluable for diagnosing problems in production."
+    },
+    "41-testing": {
+      "title": "Unit Testing",
+      "brief": "Unit tests verify that small pieces of code work correctly. JUnit is Java's testing framework — you write test methods that check specific behaviors. Mockito lets you fake dependencies so you can test a class in isolation. Good tests catch bugs early and give you confidence when changing code."
+    },
+    "42-clean-code": {
+      "title": "Clean Code",
+      "brief": "Clean code is easy to read, understand, and modify. Good naming makes code self-documenting. Small methods do one thing well. Following the DRY principle means writing code once, not duplicating it everywhere. Clean code is a professional skill that makes you a better team player."
+    },
+    "43-git": {
+      "title": "Git & GitHub",
+      "brief": "Git tracks every change you make to your code, like a time machine. You can go back to any earlier version, create branches to experiment safely, and merge changes from teammates. GitHub hosts your code online and enables team collaboration through pull requests and code reviews."
+    },
+    "44-maven": {
+      "title": "Maven",
+      "brief": "Maven is a build tool that manages project structure, dependencies (external libraries), and the build process. You declare what libraries you need in pom.xml, and Maven downloads them automatically. It standardizes how Java projects are built and shared."
+    },
+    "45-gradle": {
+      "title": "Gradle",
+      "brief": "Gradle is a modern build tool that's faster and more flexible than Maven. It uses a scripting language (Groovy or Kotlin) instead of XML. Many Android projects use Gradle. It's worth learning after Maven, especially for large, complex multi-module projects."
+    },
+    "46-solid": {
+      "title": "SOLID Principles",
+      "brief": "SOLID is a set of 5 design principles for writing maintainable software. Single Responsibility means each class does one job. Open/Closed means add new features without changing existing code. These principles guide you toward designs that are easy to extend and modify over time."
+    },
+    "47-design-patterns": {
+      "title": "Design Patterns",
+      "brief": "Design patterns are proven solutions to common programming problems. The Singleton ensures only one instance exists. The Observer notifies subscribers when state changes. The Builder constructs complex objects step by step. These patterns are a shared vocabulary among developers worldwide."
+    },
+    "48-architecture": {
+      "title": "Architecture Patterns",
+      "brief": "Architecture patterns organize large codebases. Layered architecture separates concerns into presentation, service, and data layers. MVC separates model, view, and controller. DTOs carry data between layers without exposing internal entities. These patterns make large applications manageable."
+    },
+    "49-networking": {
+      "title": "Java Networking",
+      "brief": "Java's networking API lets your programs communicate over the internet. Sockets are the low-level TCP connection endpoints. The modern HTTP Client (Java 11+) makes calling web APIs easy. You can send GET and POST requests, handle responses, and even make asynchronous (non-blocking) requests."
+    },
+    "50-web-fundamentals": {
+      "title": "Web Fundamentals",
+      "brief": "Understanding HTTP is essential for web development. Every web request has a method (GET to fetch, POST to create), headers (metadata), and optionally a body (data). Responses have status codes: 200 means success, 404 means not found, 500 means server error. REST is a set of conventions for designing web APIs."
+    },
+    "51-servlets": {
+      "title": "Servlet Technology",
+      "brief": "Servlets are Java classes that handle HTTP requests. They receive a request from a browser, process it (query the database, do business logic), and send back an HTML or JSON response. Understanding servlets explains how Spring MVC works under the hood."
+    },
+    "52-jsp": {
+      "title": "JSP Technology",
+      "brief": "JSP (JavaServer Pages) lets you embed Java code in HTML pages to generate dynamic content. JSTL provides tags like <c:forEach> to iterate lists in HTML without writing Java. While modern apps use React or Angular for the front-end, JSP knowledge is useful for maintaining legacy systems."
+    },
+    "53-spring-core": {
+      "title": "Spring Core",
+      "brief": "Spring Core provides Inversion of Control (IoC) — instead of your code creating its dependencies, Spring creates them and injects them for you. This makes code modular and testable. Beans are Spring-managed objects. @Component tells Spring to manage a class. @Autowired injects dependencies."
+    },
+    "54-spring-boot": {
+      "title": "Spring Boot",
+      "brief": "Spring Boot dramatically simplifies building Spring applications. It auto-configures everything based on your dependencies — add a database driver and it sets up the connection automatically. Instead of 100 lines of configuration, you write almost none. Most professional Java backends use Spring Boot."
+    },
+    "55-spring-mvc": {
+      "title": "Spring MVC & REST APIs",
+      "brief": "@RestController turns a class into an HTTP endpoint handler. @GetMapping maps GET requests to methods. ResponseEntity lets you control exactly what status code and headers to return. Good REST API design follows conventions that make APIs intuitive for other developers to use."
+    },
+    "56-jpa-hibernate": {
+      "title": "Hibernate & JPA",
+      "brief": "JPA (Java Persistence API) maps Java objects to database tables automatically. Instead of writing SQL manually, you annotate a class with @Entity and Spring/Hibernate handles the SQL. @OneToMany, @ManyToMany define relationships between tables. This is ORM — Object-Relational Mapping."
+    },
+    "57-spring-data-jpa": {
+      "title": "Spring Data JPA",
+      "brief": "Spring Data JPA makes database access almost magical. You define a Repository interface, and Spring generates the implementation automatically. Want to find users by email? Just declare findByEmail(String email) — no SQL needed. Custom @Query annotations let you write JPQL when you need more control."
+    },
+    "58-security-fundamentals": {
+      "title": "Security Fundamentals",
+      "brief": "Security protects your application and users. Passwords must be hashed (bcrypt) — never stored in plain text. Authentication verifies who you are (login). Authorization controls what you can do (roles). JWT tokens let stateless authentication work across microservices. CSRF and XSS are common attack types to defend against."
+    },
+    "59-spring-security": {
+      "title": "Spring Security",
+      "brief": "Spring Security is the standard way to add security to Spring apps. A security filter chain intercepts all requests. You configure which endpoints require authentication. JWT filters validate tokens before requests reach controllers. @PreAuthorize('hasRole(ADMIN)') restricts access at the method level."
+    },
+    "60-caching": {
+      "title": "Caching",
+      "brief": "Caching stores frequently-accessed data in fast memory to avoid slow database reads. Spring Cache's @Cacheable annotation caches a method's result automatically — the second call returns instantly from cache. Redis is a popular in-memory store used as a distributed cache across multiple servers."
+    },
+    "61-messaging": {
+      "title": "Messaging & Events",
+      "brief": "Message queues let services communicate asynchronously — instead of Service A waiting for Service B to respond, it sends a message and continues. Kafka handles millions of messages per second (think Netflix, Uber). RabbitMQ is a traditional message broker. Event-driven design makes systems more resilient."
+    },
+    "62-scheduling": {
+      "title": "Scheduling & Background Jobs",
+      "brief": "@Scheduled turns a method into a scheduled task — 'run this every night at 2 AM'. Cron expressions specify exactly when: '0 0 2 * * *' means 'at 2:00 AM every day'. Background jobs handle tasks that shouldn't block the user — sending emails, generating reports, cleaning up old data."
+    },
+    "63-api-reliability": {
+      "title": "API Reliability",
+      "brief": "Reliability patterns make your API withstand real-world problems. A circuit breaker stops calling a failing service and returns a fallback instead — like a fuse protecting your system. Retry automatically tries again after a transient failure. Rate limiting prevents abuse by limiting requests per user."
+    },
+    "64-microservices": {
+      "title": "Microservices",
+      "brief": "Microservices split a large application into small, independently deployable services. The User Service handles users, the Order Service handles orders, and they communicate via APIs or messages. Netflix, Amazon, and Uber all use this architecture. It enables independent scaling and deployment — but adds significant complexity."
+    },
+    "65-linux": {
+      "title": "Linux Fundamentals",
+      "brief": "Most Java servers run on Linux. Essential commands: ls lists files, grep searches text, tail -f watches a log file in real time. Systemd manages services (start, stop, restart). Understanding Linux helps you deploy, monitor, and troubleshoot your Java applications on real servers."
+    },
+    "66-docker": {
+      "title": "Docker",
+      "brief": "Docker packages your application and all its dependencies into a container — a self-contained unit that runs identically everywhere. No more 'it works on my machine!' A Dockerfile is the recipe; docker-compose.yml orchestrates multiple containers (app + database). Every modern backend developer needs Docker."
+    },
+    "67-cicd": {
+      "title": "CI/CD",
+      "brief": "CI/CD automates building, testing, and deploying code. Every time you push to GitHub, GitHub Actions automatically runs your tests and builds your Docker image. If all tests pass, it deploys to production automatically. This catches bugs early and makes deployments fast and reliable."
+    },
+    "68-cloud": {
+      "title": "Cloud & Orchestration",
+      "brief": "Cloud platforms (AWS, Google Cloud, Azure) provide servers, databases, and services on demand — pay only for what you use. Kubernetes orchestrates containers across many servers — ensuring your app is always running, scaling up when traffic spikes, and rolling out updates without downtime."
+    },
+    "69-jvm-architecture": {
+      "title": "JVM Architecture",
+      "brief": "The JVM (Java Virtual Machine) is the engine that runs Java programs. It loads compiled bytecode (.class files), verifies them, and executes them. JIT (Just-In-Time) compilation turns hot code into native machine instructions for maximum speed. Understanding the JVM helps you optimize your applications."
+    },
+    "70-memory-management": {
+      "title": "Memory Management",
+      "brief": "Java automatically manages memory through garbage collection — you create objects, and the JVM automatically frees them when no longer needed. The G1, ZGC garbage collectors minimize pause times. Memory leaks happen when you accidentally hold references to objects you no longer need. Heap dumps let you diagnose leaks."
+    },
+    "71-performance": {
+      "title": "Performance Engineering",
+      "brief": "Performance optimization starts with measurement, not guessing. Profilers show exactly which methods are slow. JMH accurately benchmarks small code snippets — testing shows StringBuilder is 100x faster than String concatenation in a loop. EXPLAIN on SQL queries reveals missing indexes. Optimize what matters, when it matters."
+    }
+  }
+}

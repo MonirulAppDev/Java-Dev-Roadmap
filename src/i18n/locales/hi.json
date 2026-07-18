@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "dashboard": "डैशबोर्ड",
+    "roadmap": "रोडमैप",
+    "topics": "विषय",
+    "projects": "प्रोजेक्ट",
+    "achievements": "उपलब्धियाँ",
+    "studyPlan": "अध्ययन योजना",
+    "codeRunner": "कोड रनर",
+    "settings": "सेटिंग्स",
+    "search": "विषय खोजें..."
+  },
+  "dashboard": {
+    "greeting": "वापस स्वागत है, शिक्षार्थी!",
+    "subtitle": "अपनी Java सीखने की यात्रा जारी रखें",
+    "overallProgress": "कुल प्रगति",
+    "currentStreak": "दिन की लकीर",
+    "totalXP": "कुल XP",
+    "completed": "पूर्ण",
+    "topics": "विषय",
+    "continue": "सीखना जारी रखें",
+    "recentActivity": "हाल की गतिविधि",
+    "quickStart": "त्वरित प्रारंभ",
+    "yourGoal": "आपका लक्ष्य",
+    "changeGoal": "लक्ष्य बदलें",
+    "noGoalSelected": "कोई लक्ष्य नहीं चुना",
+    "selectGoal": "एक सीखने का लक्ष्य चुनें",
+    "topicsCompleted": "विषय पूर्ण",
+    "phasesCompleted": "चरण पूर्ण",
+    "nextUp": "अगला",
+    "keepGoing": "जारी रखें!",
+    "phaseProgress": "चरण प्रगति",
+    "viewAll": "सब देखें"
+  },
+  "topics": {
+    "title": "सभी विषय",
+    "subtitle": "21 चरणों में {{count}} विषय ब्राउज़ करें",
+    "filter": "फ़िल्टर",
+    "filterAll": "सभी",
+    "filterCompleted": "पूर्ण",
+    "filterInProgress": "प्रगति में",
+    "filterNotStarted": "शुरू नहीं",
+    "markComplete": "पूर्ण के रूप में चिह्नित करें",
+    "markIncomplete": "अपूर्ण चिह्नित करें",
+    "completed": "पूर्ण",
+    "subtopics": "उप-विषय",
+    "exercises": "अभ्यास",
+    "estimatedTime": "अनुमानित समय",
+    "hours": "घंटे",
+    "xpReward": "XP पुरस्कार",
+    "searchTopics": "विषय खोजें..."
+  },
+  "topicDetail": {
+    "overview": "अवलोकन",
+    "subtopics": "उप-विषय",
+    "codeExample": "कोड उदाहरण",
+    "exercises": "अभ्यास",
+    "notes": "मेरे नोट्स",
+    "saveNote": "नोट सहेजें",
+    "notePlaceholder": "इस विषय के लिए अपने व्यक्तिगत नोट्स लिखें...",
+    "markComplete": "पूर्ण के रूप में चिह्नित करें",
+    "markIncomplete": "अपूर्ण चिह्नित करें",
+    "copyCode": "कॉपी",
+    "copied": "कॉपी हो गया!",
+    "runCode": "कोड रनर में चलाएं",
+    "difficulty": "कठिनाई",
+    "estimated": "अनुमानित",
+    "xpReward": "XP पुरस्कार",
+    "phase": "चरण",
+    "nextTopic": "अगला विषय",
+    "previousTopic": "पिछला विषय"
+  },
+  "roadmap": {
+    "title": "Java सीखने का रोडमैप",
+    "subtitle": "शुरुआत से विशेषज्ञ तक — 21 चरण, 71+ विषय",
+    "phase": "चरण",
+    "topics": "विषय",
+    "weeks": "सप्ताह",
+    "startPhase": "चरण शुरू करें",
+    "continuePhase": "जारी रखें",
+    "completed": "पूर्ण",
+    "inProgress": "प्रगति में",
+    "locked": "आगे आ रहा है"
+  },
+  "achievements": {
+    "title": "उपलब्धियाँ",
+    "subtitle": "Java सीखने के दौरान बैज अनलॉक करें",
+    "unlocked": "अनलॉक",
+    "locked": "लॉक",
+    "rarity": {
+      "common": "सामान्य",
+      "uncommon": "असामान्य",
+      "rare": "दुर्लभ",
+      "epic": "महाकाव्य",
+      "legendary": "पौराणिक"
+    }
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "language": "भाषा",
+    "theme": "थीम",
+    "darkMode": "डार्क मोड",
+    "lightMode": "लाइट मोड",
+    "resetProgress": "प्रगति रीसेट करें",
+    "madeWith": "☕ के साथ बनाया गया दुनिया भर के Java सीखने वालों के लिए"
+  },
+  "common": {
+    "loading": "लोड हो रहा है...",
+    "back": "वापस",
+    "next": "अगला",
+    "complete": "पूर्ण",
+    "beginner": "शुरुआती",
+    "intermediate": "मध्यवर्ती",
+    "advanced": "उन्नत",
+    "expert": "विशेषज्ञ",
+    "phase": "चरण",
+    "xp": "XP",
+    "streak": "लकीर",
+    "days": "दिन",
+    "level": "स्तर",
+    "progress": "प्रगति",
+    "of": "में से"
+  },
+  "phases": {
+    "1": { "title": "प्रोग्रामिंग मूल बातें", "description": "Java की मूल बातें सीखें — अपना पहला प्रोग्राम कैसे लिखें और चलाएं" },
+    "2": { "title": "ऐरे और स्ट्रिंग", "description": "सूचियों के लिए ऐरे और टेक्स्ट के लिए स्ट्रिंग में महारत हासिल करें" },
+    "3": { "title": "ऑब्जेक्ट-ओरिएंटेड प्रोग्रामिंग", "description": "क्लास, ऑब्जेक्ट और OOP सिद्धांतों के साथ वास्तविक दुनिया का मॉडल बनाएं" },
+    "4": { "title": "कोर Java", "description": "Collections, Generics और Exception Handling में गहराई से जाएं" },
+    "5": { "title": "फंक्शनल Java", "description": "Lambda और Streams के साथ आधुनिक Java" },
+    "6": { "title": "फ़ाइल हैंडलिंग और I/O", "description": "फ़ाइलें पढ़ें और लिखें, तारीख और फ़ाइल सिस्टम के साथ काम करें" },
+    "7": { "title": "मल्टीथ्रेडिंग और कंकरेंसी", "description": "तेज़, प्रतिक्रियाशील ऐप के लिए एक साथ कई काम करें" },
+    "8": { "title": "डेटाबेस प्रोग्रामिंग", "description": "SQL और JDBC के साथ Java को डेटाबेस से कनेक्ट करें" },
+    "9": { "title": "डेटा स्ट्रक्चर और एल्गोरिदम", "description": "कुशल डेटा स्ट्रक्चर और समस्या समाधान एल्गोरिदम" },
+    "10": { "title": "टेस्टिंग, डीबगिंग और कोड गुणवत्ता", "description": "पेशेवर तरीके से विश्वसनीय कोड लिखें" },
+    "11": { "title": "बिल्ड टूल्स और वर्जन कंट्रोल", "description": "Git, Maven और Gradle" },
+    "12": { "title": "डिजाइन सिद्धांत और पैटर्न", "description": "SOLID सिद्धांत और डिजाइन पैटर्न" },
+    "13": { "title": "नेटवर्किंग और वेब बुनियादी बातें", "description": "कंप्यूटर कैसे संवाद करते हैं और वेब कैसे काम करता है" },
+    "14": { "title": "Servlet और JSP तकनीक", "description": "Java वेब विकास की नींव" },
+    "15": { "title": "Spring Framework", "description": "दुनिया का सबसे लोकप्रिय Java फ्रेमवर्क" },
+    "16": { "title": "ORM और डेटाबेस फ्रेमवर्क", "description": "JPA और Hibernate" },
+    "17": { "title": "सुरक्षा", "description": "प्रमाणीकरण, प्राधिकरण और ऐप सुरक्षा" },
+    "18": { "title": "उन्नत बैकएंड विकास", "description": "Caching, Messaging और Reliability" },
+    "19": { "title": "Microservices", "description": "छोटी, स्वतंत्र सेवाओं के साथ स्केल करें" },
+    "20": { "title": "Deployment और DevOps", "description": "Docker, CI/CD और Cloud" },
+    "21": { "title": "JVM इंटर्नल्स और परफॉर्मेंस", "description": "तेज़तम Java ऐप के लिए JVM में महारत" }
+  },
+  "topics": {
+    "1-intro": {
+      "title": "Java परिचय और पर्यावरण",
+      "brief": "Java दुनिया की सबसे लोकप्रिय प्रोग्रामिंग भाषाओं में से एक है। कंप्यूटर को निर्देश देने की भाषा सीखने जैसा है यह। इस विषय में आप अपना कंप्यूटर सेटअप करेंगे, Java लिखने के लिए टूल इंस्टॉल करेंगे, और अपना पहला प्रोग्राम चलाएंगे।"
+    },
+    "2-variables": {
+      "title": "वेरिएबल और डेटा टाइप",
+      "brief": "एक वेरिएबल एक लेबल वाले बॉक्स जैसा है जिसमें आप जानकारी स्टोर करते हैं। 'age' नाम के बॉक्स में नंबर 25 हो सकता है। Java में अलग-अलग प्रकार की जानकारी के लिए अलग-अलग बॉक्स हैं — नंबर, दशमलव, टेक्स्ट, और सही/गलत।"
+    },
+    "3-operators": {
+      "title": "ऑपरेटर",
+      "brief": "ऑपरेटर प्रोग्रामिंग के गणित और लॉजिक उपकरण हैं। + नंबर जोड़ता है, == दो चीजें बराबर हैं या नहीं जांचता है। ये एक कैलकुलेटर के बटन जैसे हैं, लेकिन बहुत अधिक शक्तिशाली।"
+    }
+  }
+}

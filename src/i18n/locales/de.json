@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "roadmap": "Lernpfad",
+    "topics": "Themen",
+    "projects": "Projekte",
+    "achievements": "Erfolge",
+    "studyPlan": "Lernplan",
+    "codeRunner": "Code-Runner",
+    "settings": "Einstellungen",
+    "search": "Themen suchen..."
+  },
+  "dashboard": {
+    "greeting": "Willkommen zurück, Lernender!",
+    "subtitle": "Setze deine Java-Lernreise fort",
+    "overallProgress": "Gesamtfortschritt",
+    "currentStreak": "Tage-Streak",
+    "totalXP": "Gesamt-XP",
+    "completed": "Abgeschlossen",
+    "topics": "Themen",
+    "continue": "Weiterlernen",
+    "recentActivity": "Letzte Aktivität",
+    "quickStart": "Schnellstart",
+    "yourGoal": "Dein Ziel",
+    "changeGoal": "Ziel ändern",
+    "noGoalSelected": "Kein Ziel ausgewählt",
+    "selectGoal": "Lernziel auswählen",
+    "topicsCompleted": "Themen abgeschlossen",
+    "phasesCompleted": "Phasen abgeschlossen",
+    "nextUp": "Als nächstes",
+    "keepGoing": "Weiter so!",
+    "phaseProgress": "Phasenfortschritt",
+    "viewAll": "Alle anzeigen"
+  },
+  "topics": {
+    "title": "Alle Themen",
+    "subtitle": "{{count}} Themen in 21 Phasen durchsuchen",
+    "filter": "Filtern",
+    "filterAll": "Alle",
+    "filterCompleted": "Abgeschlossen",
+    "filterInProgress": "In Bearbeitung",
+    "filterNotStarted": "Nicht begonnen",
+    "markComplete": "Als abgeschlossen markieren",
+    "markIncomplete": "Als unvollständig markieren",
+    "completed": "Abgeschlossen",
+    "subtopics": "Unterthemen",
+    "exercises": "Übungen",
+    "estimatedTime": "Geschätzte Zeit",
+    "hours": "Std",
+    "xpReward": "XP-Belohnung",
+    "searchTopics": "Themen suchen..."
+  },
+  "topicDetail": {
+    "overview": "Übersicht",
+    "subtopics": "Unterthemen",
+    "codeExample": "Code-Beispiel",
+    "exercises": "Übungen",
+    "notes": "Meine Notizen",
+    "saveNote": "Notiz speichern",
+    "notePlaceholder": "Schreibe deine persönlichen Notizen zu diesem Thema...",
+    "markComplete": "Als abgeschlossen markieren",
+    "markIncomplete": "Als unvollständig markieren",
+    "copyCode": "Kopieren",
+    "copied": "Kopiert!",
+    "runCode": "Im Code-Runner ausführen",
+    "difficulty": "Schwierigkeit",
+    "estimated": "Geschätzt",
+    "xpReward": "XP-Belohnung",
+    "phase": "Phase",
+    "nextTopic": "Nächstes Thema",
+    "previousTopic": "Vorheriges Thema"
+  },
+  "roadmap": {
+    "title": "Java-Lernfahrplan",
+    "subtitle": "Dein vollständiger Weg vom Anfänger zum Experten — 21 Phasen, 71+ Themen",
+    "phase": "Phase",
+    "topics": "Themen",
+    "weeks": "Wochen",
+    "startPhase": "Phase starten",
+    "continuePhase": "Weitermachen",
+    "completed": "Abgeschlossen",
+    "inProgress": "In Bearbeitung",
+    "locked": "Kommt bald"
+  },
+  "achievements": {
+    "title": "Erfolge",
+    "subtitle": "Schalte Abzeichen auf deiner Java-Lernreise frei",
+    "unlocked": "Freigeschaltet",
+    "locked": "Gesperrt",
+    "rarity": {
+      "common": "Gewöhnlich",
+      "uncommon": "Ungewöhnlich",
+      "rare": "Selten",
+      "epic": "Episch",
+      "legendary": "Legendär"
+    }
+  },
+  "settings": {
+    "title": "Einstellungen",
+    "language": "Sprache",
+    "theme": "Design",
+    "darkMode": "Dunkelmodus",
+    "lightMode": "Hellmodus",
+    "resetProgress": "Fortschritt zurücksetzen",
+    "madeWith": "Mit ☕ gemacht für Java-Lernende weltweit"
+  },
+  "common": {
+    "loading": "Laden...",
+    "back": "Zurück",
+    "next": "Weiter",
+    "complete": "Abgeschlossen",
+    "beginner": "Anfänger",
+    "intermediate": "Mittelstufe",
+    "advanced": "Fortgeschritten",
+    "expert": "Experte",
+    "phase": "Phase",
+    "xp": "XP",
+    "streak": "Streak",
+    "days": "Tage",
+    "level": "Stufe",
+    "progress": "Fortschritt",
+    "of": "von"
+  },
+  "phases": {
+    "1": { "title": "Programmierfundamente", "description": "Lerne die Grundlagen von Java — wie man sein erstes Programm schreibt und ausführt" },
+    "2": { "title": "Arrays und Strings", "description": "Beherrsche Arrays für Listen und Strings für Text" },
+    "3": { "title": "Objektorientierte Programmierung", "description": "Modelliere die reale Welt mit Klassen, Objekten und OOP-Prinzipien" },
+    "4": { "title": "Kern-Java", "description": "Tauche tief in Collections, Generics und Exception Handling ein" },
+    "5": { "title": "Funktionales Java", "description": "Modernes Java mit Lambdas und Streams" },
+    "6": { "title": "Dateiverarbeitung und I/O", "description": "Dateien lesen und schreiben, mit Datum und Dateisystem arbeiten" },
+    "7": { "title": "Multithreading und Nebenläufigkeit", "description": "Mehrere Aufgaben gleichzeitig für schnelle, reaktionsschnelle Apps" },
+    "8": { "title": "Datenbankprogrammierung", "description": "Java mit SQL und JDBC mit Datenbanken verbinden" },
+    "9": { "title": "Datenstrukturen und Algorithmen", "description": "Effiziente Datenstrukturen und Problemlösungsalgorithmen" },
+    "10": { "title": "Testing, Debugging und Codequalität", "description": "Zuverlässigen Code auf professionelle Weise schreiben" },
+    "11": { "title": "Build-Tools und Versionskontrolle", "description": "Git, Maven und Gradle" },
+    "12": { "title": "Designprinzipien und -muster", "description": "SOLID-Prinzipien und Entwurfsmuster" },
+    "13": { "title": "Netzwerk- und Web-Grundlagen", "description": "Wie Computer kommunizieren und wie das Web funktioniert" },
+    "14": { "title": "Servlet- und JSP-Technologie", "description": "Grundlage der Java-Webentwicklung" },
+    "15": { "title": "Spring Framework", "description": "Das beliebteste Java-Framework der Welt" },
+    "16": { "title": "ORM und Datenbank-Frameworks", "description": "JPA und Hibernate" },
+    "17": { "title": "Sicherheit", "description": "Authentifizierung, Autorisierung und App-Schutz" },
+    "18": { "title": "Fortgeschrittene Backend-Entwicklung", "description": "Caching, Messaging und Zuverlässigkeit" },
+    "19": { "title": "Microservices", "description": "Skalierung mit kleinen, unabhängigen Diensten" },
+    "20": { "title": "Deployment und DevOps", "description": "Docker, CI/CD und Cloud" },
+    "21": { "title": "JVM-Interna und Performance", "description": "Den JVM-Motor für schnellste Java-Apps meistern" }
+  },
+  "topics": {
+    "1-intro": {
+      "title": "Java Einführung und Umgebung",
+      "brief": "Java ist eine der beliebtesten Programmiersprachen der Welt. Es ist wie das Erlernen einer neuen Sprache — aber statt zu sprechen, schreibst du Anweisungen, die ein Computer befolgt. In diesem Thema richtest du deinen Computer ein, installierst die zum Schreiben von Java benötigten Tools und führst dein erstes Programm aus."
+    },
+    "2-variables": {
+      "title": "Variablen und Datentypen",
+      "brief": "Eine Variable ist wie eine beschriftete Box, in der du Informationen speicherst. Eine Box namens 'alter' könnte die Zahl 25 enthalten. Java hat verschiedene Box-Typen für verschiedene Arten von Daten — Zahlen, Dezimalzahlen, Text und Wahr/Falsch-Werte."
+    },
+    "3-operators": {
+      "title": "Operatoren",
+      "brief": "Operatoren sind die Mathematik- und Logikwerkzeuge der Programmierung. + addiert Zahlen, == prüft ob zwei Dinge gleich sind, && bedeutet 'beide Bedingungen müssen wahr sein'. Stell sie dir wie die Symbole auf einem Taschenrechner vor, aber viel mächtiger."
+    }
+  }
+}

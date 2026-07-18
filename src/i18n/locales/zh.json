@@ -1,0 +1,161 @@
+{
+  "nav": {
+    "dashboard": "仪表板",
+    "roadmap": "学习路线",
+    "topics": "主题",
+    "projects": "项目",
+    "achievements": "成就",
+    "studyPlan": "学习计划",
+    "codeRunner": "代码运行器",
+    "settings": "设置",
+    "search": "搜索主题..."
+  },
+  "dashboard": {
+    "greeting": "欢迎回来，学习者！",
+    "subtitle": "继续您的Java学习之旅",
+    "overallProgress": "总体进度",
+    "currentStreak": "连续天数",
+    "totalXP": "总XP",
+    "completed": "已完成",
+    "topics": "主题",
+    "continue": "继续学习",
+    "recentActivity": "最近活动",
+    "quickStart": "快速开始",
+    "yourGoal": "您的目标",
+    "changeGoal": "更改目标",
+    "noGoalSelected": "未选择目标",
+    "selectGoal": "选择学习目标",
+    "topicsCompleted": "个主题已完成",
+    "phasesCompleted": "个阶段已完成",
+    "nextUp": "下一步",
+    "keepGoing": "继续！",
+    "phaseProgress": "阶段进度",
+    "viewAll": "查看全部"
+  },
+  "topics": {
+    "title": "所有主题",
+    "subtitle": "浏览21个阶段中的{{count}}个主题",
+    "filter": "筛选",
+    "filterAll": "全部",
+    "filterCompleted": "已完成",
+    "filterInProgress": "进行中",
+    "filterNotStarted": "未开始",
+    "markComplete": "标记为完成",
+    "markIncomplete": "标记为未完成",
+    "completed": "已完成",
+    "subtopics": "子主题",
+    "exercises": "练习",
+    "estimatedTime": "预计时间",
+    "hours": "小时",
+    "xpReward": "XP奖励",
+    "searchTopics": "搜索主题..."
+  },
+  "topicDetail": {
+    "overview": "概述",
+    "subtopics": "子主题",
+    "codeExample": "代码示例",
+    "exercises": "练习",
+    "notes": "我的笔记",
+    "saveNote": "保存笔记",
+    "notePlaceholder": "为本主题写下您的个人笔记...",
+    "markComplete": "标记为完成",
+    "markIncomplete": "标记为未完成",
+    "copyCode": "复制",
+    "copied": "已复制！",
+    "runCode": "在代码运行器中运行",
+    "difficulty": "难度",
+    "estimated": "预计",
+    "xpReward": "XP奖励",
+    "phase": "阶段",
+    "nextTopic": "下一个主题",
+    "previousTopic": "上一个主题"
+  },
+  "roadmap": {
+    "title": "Java学习路线图",
+    "subtitle": "从初学者到专家的完整路径 — 21个阶段，71+主题",
+    "phase": "阶段",
+    "topics": "主题",
+    "weeks": "周",
+    "startPhase": "开始阶段",
+    "continuePhase": "继续",
+    "completed": "已完成",
+    "inProgress": "进行中",
+    "locked": "即将到来"
+  },
+  "achievements": {
+    "title": "成就",
+    "subtitle": "在Java学习旅程中解锁徽章",
+    "unlocked": "已解锁",
+    "locked": "已锁定",
+    "rarity": {
+      "common": "普通",
+      "uncommon": "不常见",
+      "rare": "稀有",
+      "epic": "史诗",
+      "legendary": "传奇"
+    }
+  },
+  "settings": {
+    "title": "设置",
+    "language": "语言",
+    "theme": "主题",
+    "darkMode": "深色模式",
+    "lightMode": "浅色模式",
+    "resetProgress": "重置进度",
+    "madeWith": "用☕为全世界的Java学习者制作"
+  },
+  "common": {
+    "loading": "加载中...",
+    "back": "返回",
+    "next": "下一步",
+    "complete": "完成",
+    "beginner": "初学者",
+    "intermediate": "中级",
+    "advanced": "高级",
+    "expert": "专家",
+    "phase": "阶段",
+    "xp": "XP",
+    "streak": "连续",
+    "days": "天",
+    "level": "级别",
+    "progress": "进度",
+    "of": "共"
+  },
+  "phases": {
+    "1": { "title": "编程基础", "description": "学习Java基础 — 如何编写和运行您的第一个程序" },
+    "2": { "title": "数组和字符串", "description": "掌握用于列表的数组和用于文本的字符串" },
+    "3": { "title": "面向对象编程", "description": "用类、对象和OOP原则对现实世界建模" },
+    "4": { "title": "核心Java", "description": "深入学习集合、泛型和异常处理" },
+    "5": { "title": "函数式Java", "description": "使用Lambda和Stream的现代Java" },
+    "6": { "title": "文件处理和I/O", "description": "读写文件，处理日期和文件系统" },
+    "7": { "title": "多线程和并发", "description": "同时运行多个任务，打造快速响应的应用" },
+    "8": { "title": "数据库编程", "description": "使用SQL和JDBC将Java连接到数据库" },
+    "9": { "title": "数据结构和算法", "description": "高效数据结构和问题解决算法" },
+    "10": { "title": "测试、调试和代码质量", "description": "以专业方式编写可靠的代码" },
+    "11": { "title": "构建工具和版本控制", "description": "Git、Maven和Gradle" },
+    "12": { "title": "设计原则和模式", "description": "SOLID原则和设计模式" },
+    "13": { "title": "网络和Web基础", "description": "计算机如何通信以及Web如何工作" },
+    "14": { "title": "Servlet和JSP技术", "description": "Java Web开发的基础" },
+    "15": { "title": "Spring框架", "description": "世界上最流行的Java框架" },
+    "16": { "title": "ORM和数据库框架", "description": "JPA和Hibernate" },
+    "17": { "title": "安全", "description": "认证、授权和应用保护" },
+    "18": { "title": "高级后端开发", "description": "缓存、消息传递和可靠性" },
+    "19": { "title": "微服务", "description": "使用小型独立服务进行扩展" },
+    "20": { "title": "部署和DevOps", "description": "Docker、CI/CD和云部署" },
+    "21": { "title": "JVM内部和性能", "description": "掌握JVM引擎以获得最快的Java应用" }
+  },
+  "topics": {
+    "1-intro": {
+      "title": "Java简介和环境",
+      "brief": "Java是世界上最流行的编程语言之一。这就像学习一种新语言，但不是说话，而是写计算机遵循的指令。在这个主题中，您将设置计算机，安装编写Java所需的工具，并运行您的第一个程序。"
+    },
+    "2-variables": {
+      "title": "变量和数据类型",
+      "brief": "变量就像一个带标签的盒子，用于存储信息。标签为'age'的盒子可能存储数字25。Java有不同类型的盒子用于不同种类的数据——数字、小数、文本和真/假值。"
+    },
+    "3-operators": {
+      "title": "运算符",
+      "brief": "运算符是编程的数学和逻辑工具。+用于加法，==检查两个东西是否相等，&&表示'两个条件都必须为真'。把它们想象成计算器上的符号，但功能更强大。"
+    }
+  }
+}
